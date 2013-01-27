@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <nine-patch android:src="@drawable/leaderboard_bottom_btn_sel" android:dither="true" android:filter="true"/>
+            </item>
+        </layer-list>
+    </item>
+    
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <nine-patch android:src="@drawable/leaderboard_bottom_btn_sel" android:dither="true" android:antialias="true" android:filter="true"/>
+            </item>
+        </layer-list>
+    </item>
+    
+    <item android:drawable="@drawable/grouped_stream_bg" android:dither="true" android:antialias="true" android:filter="true">
+    </item>
+    
+</selector>

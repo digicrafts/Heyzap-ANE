@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    style="@style/Block" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        style="@style/VerticalBlock" >
+
+        <View
+            android:id="@+id/separator_top"
+            style="@style/Block"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp" >
+
+            <TextView
+                android:id="@+id/level_name"
+                style="@style/WhiteBottomShadow"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toLeftOf="@+id/icon"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="#4d4d4d"
+                android:textSize="15dp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/score_text"
+                style="@style/WhiteBottomShadow"
+                android:layout_alignLeft="@id/level_name"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="3dp"
+                android:layout_toLeftOf="@+id/icon"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:id="@+id/icon"
+                style="@style/Inline"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_check"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separator_bottom"
+            style="@style/Block"
+            android:layout_height="1dp"
+            android:background="#d8d8d8" />
+    </LinearLayout>
+
+</FrameLayout>

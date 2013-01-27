@@ -1,0 +1,268 @@
+THeyzapANE
+v5
+r1
+cCheck dependencies
+cProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.pth" HeyzapANE_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.pth" HeyzapANE_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a" normal armv7
+cLibtool "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a" normal armv7s
+cCreateUniversalBinary "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libHeyzapANE.a" normal "armv7 armv7s"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000509316370000000000000132
+t1351816759
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505AC5CC0000000000629C80
+t1348126156
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000505AC5CC00000000000015F7
+t1348126156
+s5623
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib/Heyzap.framework/Heyzap
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib/heyzap-sdk-3.4.17/ios-sdk/Heyzap.framework/Heyzap
+c0000000050FDDEAF000000000025F3F8
+t1358814895
+s2487288
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.o
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/HeyzapANE.LinkFileList
+c000000005103A75500000000000000AE
+t1359193941
+s174
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libExtension.a
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.o
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/HeyzapANE.LinkFileList
+c000000005103A75500000000000000AF
+t1359193941
+s175
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libExtension.a
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/Extension_Prefix-efdimwsviqfnbpcvmqebdebxvxok/Extension_Prefix.pch.pth
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/Extension_Prefix-hfgdmhfszmezshgwoqiooesdfqts/Extension_Prefix.pch.pth
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.pth
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-efdimwsviqfnbpcvmqebdebxvxok/HeyzapANE_Prefix.pch.pth
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.pth
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-hfgdmhfszmezshgwoqiooesdfqts/HeyzapANE_Prefix.pch.pth
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libExtension.a
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libHeyzapANE.a
+t2
+s0
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m
+c000000005101DA110000000000000E46
+t1359075857
+s3654
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension_Prefix.pch
+c000000005101DA1100000000000000BC
+t1359075857
+s188
+i<Foundation/Foundation.h>
+
+N/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/HeyzapANE_Prefix.pch
+c000000005101DA1100000000000000BC
+t1359075857
+s188
+i<Foundation/Foundation.h>
+
+CBuild AST from "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies82ff91d5deb3b641^b64b93d5deb3b641^-249"warning: no rule to process file '$(PROJECT_DIR)/FlashRuntimeExtensions.h' of type sourcecode.objj.h for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/FlashRuntimeExtensions.h' of type sourcecode.objj.h for architecture armv7s2(21%IDEActivityLogMessage2@123"Warning: no rule to process file '$(PROJECT_DIR)/FlashRuntimeExtensions.h' of type sourcecode.objj.h for architecture armv7-380886741#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/FlashRuntimeExtensions.h' of type sourcecode.objj.h for architecture armv7s-380886741#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"4E767002-2DE4-4710-9634-7772ACD1E46B-
+
+CCompileC Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380886741.926115
+e380886742.293741
+r1
+xCompileC
+xBuild/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.o
+x/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m:28:5: warning: class method '+startHeyzapWithAppId:' not found (return type defaults to 'id')
+o    [HeyzapSDK startHeyzapWithAppId: [NSString stringWithUTF8String:(char*)appStoreId]];
+o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m1f2eedd5deb3b641^3b354bd6deb3b641^-378"/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m:28:5: warning: class method '+startHeyzapWithAppId:' not found (return type defaults to 'id')    [HeyzapSDK startHeyzapWithAppId: [NSString stringWithUTF8String:(char*)appStoreId]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@78"Class method '+startHeyzapWithAppId:' not found (return type defaults to 'id')-380886742#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m0000000000000000^27#4#27#4#647#0#14"Semantic Issue1(3@103"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m0000000000000000^27#4#27#87#647#82#-0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m0000000000000000^3467"CompileC Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.o Extension.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -static -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/HeyzapANE.hmap" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/include" -I/Applications/AdobeAirSDK/include "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources/armv7" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib/heyzap-sdk-3.4.17/ios-sdk" -include "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch" -MMD -MT dependencies -MF "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.d" --serialize-diagnostics "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.dia" -c "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m" -o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/Extension.o"36"D78DEB61-B9BE-4F79-96B0-27EFC1AC35E3-
+
+CCompileC Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380886741.926098
+e380886742.293745
+r1
+xCompileC
+xBuild/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.o
+x/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m:28:5: warning: class method '+startHeyzapWithAppId:' not found (return type defaults to 'id')
+o    [HeyzapSDK startHeyzapWithAppId: [NSString stringWithUTF8String:(char*)appStoreId]];
+o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.md82eedd5deb3b641^76334bd6deb3b641^-378"/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m:28:5: warning: class method '+startHeyzapWithAppId:' not found (return type defaults to 'id')    [HeyzapSDK startHeyzapWithAppId: [NSString stringWithUTF8String:(char*)appStoreId]];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@78"Class method '+startHeyzapWithAppId:' not found (return type defaults to 'id')-380886742#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m0000000000000000^27#4#27#4#647#0#14"Semantic Issue1(3@103"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m0000000000000000^27#4#27#87#647#82#-0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m0000000000000000^3474"CompileC Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.o Extension.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -static -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/HeyzapANE.hmap" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/include" -I/Applications/AdobeAirSDK/include "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources/armv7s" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib/heyzap-sdk-3.4.17/ios-sdk" -include "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch" -MMD -MT dependencies -MF "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.d" --serialize-diagnostics "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.dia" -c "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Extension.m" -o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/Extension.o"36"BCBEB666-D7AF-451A-AB07-9915F64928DB-
+
+CCreateUniversalBinary "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libExtension.a" normal "armv7 armv7s"
+r0
+
+CCreateUniversalBinary "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libHeyzapANE.a" normal "armv7 armv7s"
+s380886742.361158
+e380886742.368524
+r1
+xCreateUniversalBinary
+x/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libHeyzapANE.a
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Create universal binary /Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libHeyzapANE.a87875cd6deb3b641^21575ed6deb3b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libHeyzapANE.a000000000080d041^863"CreateUniversalBinary Build/Products/Debug-iphoneos/libHeyzapANE.a normal "armv7 armv7s"    cd "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a" "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a" -o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/libHeyzapANE.a"36"AB80342F-3CE3-43D1-A3EE-DE5F6B931957-
+
+CLibtool "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libExtension.a" normal armv7
+r0
+
+CLibtool "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a" normal armv7
+s380886742.300326
+e380886742.354717
+r1
+xLibtool
+x/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Libtool Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a normal armv7a1f54cd6deb3b641^facf5ad6deb3b641^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1208"Libtool Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a normal armv7    cd "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos" -filelist "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/HeyzapANE.LinkFileList" -ObjC -framework Foundation -framework Heyzap -o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7/libHeyzapANE.a"36"3C3B262E-4DA3-4DF2-95B4-74FE8305AE1E-
+
+CLibtool "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libExtension.a" normal armv7s
+r0
+
+CLibtool "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a" normal armv7s
+s380886742.300337
+e380886742.318668
+r1
+xLibtool
+x/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a
+xnormal
+xarmv7s
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Libtool Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a normal armv7sc3f54cd6deb3b641^0b9751d6deb3b641^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1213"Libtool Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a normal armv7s    cd "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos" -filelist "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/HeyzapANE.LinkFileList" -ObjC -framework Foundation -framework Heyzap -o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/Objects-normal/armv7s/libHeyzapANE.a"36"C4D87399-DB43-4CB2-A2BA-5494F648DB6E-
+
+CProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/Extension_Prefix-efdimwsviqfnbpcvmqebdebxvxok/Extension_Prefix.pch.pth" Extension_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/Extension_Prefix-hfgdmhfszmezshgwoqiooesdfqts/Extension_Prefix.pch.pth" Extension_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.pth" HeyzapANE_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380886741.583593
+e380886741.919221
+r1
+xProcessPCH
+x/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.pth
+xHeyzapANE_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile HeyzapANE_Prefix.pch9a9995d5deb3b641^b952ebd5deb3b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/HeyzapANE_Prefix.pch0000000000000000^3342"ProcessPCH Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.pth HeyzapANE_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -static -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/HeyzapANE.hmap" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/include" -I/Applications/AdobeAirSDK/include "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources/armv7s" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib/heyzap-sdk-3.4.17/ios-sdk" --serialize-diagnostics "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.dia" -c "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/HeyzapANE_Prefix.pch" -o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-bgxhwiqmsbugghebabkrysgryiuw/HeyzapANE_Prefix.pch.d"36"C54A94CE-C7E2-4576-8B24-5B434D83962A-
+
+CProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-efdimwsviqfnbpcvmqebdebxvxok/HeyzapANE_Prefix.pch.pth" HeyzapANE_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.pth" HeyzapANE_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380886741.583599
+e380886741.919298
+r1
+xProcessPCH
+x/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.pth
+xHeyzapANE_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile HeyzapANE_Prefix.pchbb9995d5deb3b641^ab59ebd5deb3b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/tsangwailam/Documents/Iphone%20Project/Digicrafts/ANE/Heyzap-ANE/ios/HeyzapANE_Prefix.pch0000000000000000^3339"ProcessPCH Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.pth HeyzapANE_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -static -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/HeyzapANE.hmap" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos/include" -I/Applications/AdobeAirSDK/include "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources/armv7" "-I/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/HeyzapANE.build/Debug-iphoneos/HeyzapANE.build/DerivedSources" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Products/Debug-iphoneos" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib" "-F/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/../lib/heyzap-sdk-3.4.17/ios-sdk" --serialize-diagnostics "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.dia" -c "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/HeyzapANE_Prefix.pch" -o "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-emcabrivnncgtkeerxcxlfzbqmal/HeyzapANE_Prefix.pch.d"36"C33C8C92-6C89-4550-94BD-F7A953F89AE9-
+
+CProcessPCH "/Users/tsangwailam/Documents/Iphone Project/Digicrafts/ANE/Heyzap-ANE/ios/Build/Intermediates/PrecompiledHeaders/HeyzapANE_Prefix-hfgdmhfszmezshgwoqiooesdfqts/HeyzapANE_Prefix.pch.pth" HeyzapANE_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/tsangwailam/Library/Developer/Xcode/DerivedData/HeyzapANE-cemfqstzjaosbgdrbwsxtzmvysta/Index/PrecompiledHeaders/Extension_Prefix-capufmobusrzylbdpgmomndiyfka_ast/Extension_Prefix.pch.pth Extension_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/tsangwailam/Library/Developer/Xcode/DerivedData/HeyzapANE-cemfqstzjaosbgdrbwsxtzmvysta/Index/PrecompiledHeaders/Extension_Prefix-gzdthisueitxdcginhbtxyhbossl_ast/Extension_Prefix.pch.pth Extension_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/tsangwailam/Library/Developer/Xcode/DerivedData/HeyzapANE-cemfqstzjaosbgdrbwsxtzmvysta/Index/PrecompiledHeaders/HeyzapANE_Prefix-capufmobusrzylbdpgmomndiyfka_ast/HeyzapANE_Prefix.pch.pth HeyzapANE_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/tsangwailam/Library/Developer/Xcode/DerivedData/HeyzapANE-cemfqstzjaosbgdrbwsxtzmvysta/Index/PrecompiledHeaders/HeyzapANE_Prefix-gtephhivvgrjkchbzldtincqxgdo_ast/HeyzapANE_Prefix.pch.pth HeyzapANE_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/tsangwailam/Library/Developer/Xcode/DerivedData/HeyzapANE-cemfqstzjaosbgdrbwsxtzmvysta/Index/PrecompiledHeaders/HeyzapANE_Prefix-gwedihqejwmmxfhcvydrzcsaiiad_ast/HeyzapANE_Prefix.pch.pth HeyzapANE_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/tsangwailam/Library/Developer/Xcode/DerivedData/HeyzapANE-cemfqstzjaosbgdrbwsxtzmvysta/Index/PrecompiledHeaders/HeyzapANE_Prefix-gzdthisueitxdcginhbtxyhbossl_ast/HeyzapANE_Prefix.pch.pth HeyzapANE_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

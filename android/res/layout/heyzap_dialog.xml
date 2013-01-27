@@ -1,0 +1,8 @@
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  style="@style/VerticalBlock" 
+  background="@drawable/dialog_background"
+  android:layout_width="290dp">
+	<ScrollView android:id="@+id/content" style="@style/Block" android:layout_weight="1" />
+	<FrameLayout android:id="@+id/buttons" style="@style/Block"/>
+</LinearLayout>

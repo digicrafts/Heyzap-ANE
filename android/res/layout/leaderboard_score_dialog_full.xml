@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/leaderboard_in_game_dialog"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_gravity="center_horizontal" >
+
+        <FrameLayout
+            android:id="@+id/close_wrapper"
+            android:layout_width="43dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/top_left_button_drawable" >
+
+            <ImageView
+                android:id="@+id/close_icon"
+                style="@style/Inline"
+                android:layout_gravity="center"
+                android:src="@drawable/leaderboard_dialog_x" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right|top"
+                android:background="@drawable/ic_divider" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/logo"
+            style="@style/Inline"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:paddingRight="6dp"
+            android:src="@drawable/leaderboard_heyzap_logo" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/DarkTopShadow"
+            android:layout_alignTop="@id/logo"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_toLeftOf="@id/logo"
+            android:layout_toRightOf="@id/close_wrapper"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ffffffff"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/level_name"
+            style="@style/WhiteBottomShadow"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/logo"
+            android:layout_marginTop="0dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff6b7e8f"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/show_levels_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/close_wrapper"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="8dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/show_levels"
+                style="@style/Inline"
+                android:layout_gravity="bottom|right"
+                android:src="@drawable/down_arrow" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/feed_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="157dp"
+            android:layout_marginTop="66.5dp" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="166dp"
+            android:layout_marginTop="66.5dp"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <ProgressBar
+                style="@style/Inline"
+                android:layout_gravity="center"
+                android:indeterminate="true" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/feed_empty"
+            style="@style/VerticalBlock"
+            android:layout_width="fill_parent"
+            android:layout_height="166dp"
+            android:layout_marginTop="66.5dp"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/empty_text"
+                style="@style/Inline"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/Could not post your score"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/retry"
+                style="@style/GreenButton"
+                android:layout_width="200dp"
+                android:text="@string/Retry" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/view_full_button_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_alignParentBottom="true" >
+
+            <View
+                android:id="@+id/separator_bottom"
+                style="@style/Block"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="#d8d8d8" />
+
+            <!-- the below attribute of this gets changed in LeaderboardScoreDialogFull.java -->
+
+            <Button
+                android:id="@+id/view_full_button"
+                style="@style/WhiteBottomShadow"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/leaderboard_bottom_btn_drawable"
+                android:gravity="center"
+                android:text="@string/View full leaderboard"
+                android:textColor="#ff1676b5"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>

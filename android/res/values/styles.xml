@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common styles -->
+    <style name="Inline">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Block">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="VerticalBlock" parent="@style/Block">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="VerticalFull" parent="@style/Full">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HorizontalBlock" parent="@style/Block">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Common icon styles -->
+    <style name="TinyIcon">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="SmallIcon" parent="@style/TinyIcon">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="UserFeedIcon" parent="@style/SmallIcon">
+        <item name="android:layout_width">46dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+    </style>
+
+    <style name="MediumIcon" parent="@style/SmallIcon">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="LargeIcon" parent="@style/MediumIcon">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="LargeUserImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- Common button styles -->
+    <style name="SmallGreenButton" parent="@style/Block">
+        <item name="android:layout_height">26dp</item>
+        <item name="android:background">@drawable/invite_grn_btn</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">#305809</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <style name="GreenButton" parent="@style/SmallGreenButton">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="GreenActionButton" parent="@style/SmallGreenButton">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@drawable/green_action_button_drawable</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="LargeGreenButton" parent="@style/GreenButton">
+        <item name="android:layout_height">51dp</item>
+        <item name="android:background">@drawable/green_button</item>
+    </style>
+
+    <style name="ActionGrayButton" parent="@style/SmallGreenButton">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@drawable/button_action_gray_drawable</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#222</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">#fff</item>
+    </style>
+
+    <style name="ActionGreenButton" parent="@style/SmallGreenButton">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@drawable/button_action_green_drawable</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:shadowColor">#555</item>
+    </style>
+
+    <!-- New common button styles -->
+
+
+    <!-- <style name="FacebookLoginButton" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/btn_facebook_login_drawable</item> -->
+    <!-- <item name="android:layout_height">47dp</item> -->
+    <!-- <item name="android:text">Log in with Facebook"</item> -->
+    <!-- <item name="android:textSize">18dp</item> -->
+    <!-- <item name="android:textColor">#ffffff</item> -->
+    <!-- <item name="android:textStyle">bold</item> -->
+    <!-- <item name="android:shadowColor">#000000</item> -->
+    <!-- <item name="android:shadowDy">-1</item> -->
+    <!-- <item name="android:shadowRadius">0.01</item> -->
+    <!-- <item name="android:gravity">left|center_vertical</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="GreenDlgButton" parent="@style/LoginButton"> -->
+    <!-- <item name="android:background">@drawable/dialog_button_primary</item> -->
+    <!-- <item name="android:paddingLeft">10dp</item> -->
+    <!-- <item name="android:paddingRight">10dp</item> -->
+    <!-- <item name="android:textColor">#FFF</item> -->
+    <!-- <item name="android:textSize">15sp</item> -->
+    <!-- <item name="android:gravity">center</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="DarkDlgButton" parent="@style/GreenDlgButton"> -->
+    <!-- <item name="android:background">@drawable/btn_black_drawable</item> -->
+    <!-- <item name="android:textStyle">normal</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="EditCheckinSettingsButton" parent="@style/DarkDlgButton"> -->
+    <!-- <item name="android:background">@drawable/btn_settings_drawable</item> -->
+    <!-- </style> -->
+
+
+    <!-- Common spinner styles -->
+    <style name="LoadMoreButtonSpinner" parent="@android:style/Widget.ProgressBar.Small.Inverse">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Dialog styles -->
+    <style name="DialogSeparator" parent="@style/Block">
+        <item name="android:background">#79869c</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textColor">#fefefe</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!-- In-game popup styles -->
+    <style name="CheckinBannerText" parent="@style/Inline">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">#023e82</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <style name="RetroCheckinBannerText" parent="@style/Inline">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <!-- Load more button for lists -->
+    <style name="LoadMoreButton" parent="@style/Block">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/grouped_stream_bg</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LoadMoreButtonLabel" parent="@style/Inline">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#79869c</item>
+        <item name="android:text">@string/More</item>
+    </style>
+
+    <!-- Details page styles -->
+    <style name="DetailsHeader" parent="@style/Block">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Auth splash/login/signup styles -->
+    <style name="AuthHeader" parent="@style/VerticalBlock">
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="AuthCallToAction" parent="@style/Inline">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- <style name="AuthReasonShiney" parent="@style/Block"> -->
+    <!-- <item name="android:padding">8dp</item> -->
+    <!-- <item name="android:layout_marginBottom">10dp</item> -->
+    <!-- <item name="android:background">@drawable/splash_bg_shiney</item> -->
+    <!-- <item name="android:textColor">#FF000000</item> -->
+    <!-- <item name="android:textSize">14sp</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="AuthCallToActionLight" parent="@style/AuthCallToAction"> -->
+    <!-- <item name="android:gravity">left</item> -->
+    <!-- <item name="android:textColor">#FF4C566C</item> -->
+    <!-- <item name="android:layout_marginBottom">3dp</item> -->
+    <!-- <item name="android:layout_marginTop">5dp</item> -->
+    <!-- <item name="android:textSize">14sp</item> -->
+    <!-- </style> -->
+
+    <style name="AuthSellLight" parent="@style/Inline">
+        <item name="android:textColor">#FF4C566C</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <!-- Friends found screen styles -->
+    <style name="FriendsFoundTitle" parent="@style/Block">
+        <item name="android:background">#e2ecff</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">#4c566c</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <!-- Web Feed styles -->
+    <style name="Feed" parent="@style/VerticalBlock">
+        <item name="android:background">#fff</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- <style name="ActivityStreamItem" parent="@style/Block"> -->
+    <!-- <item name="android:paddingLeft">8dp</item> -->
+    <!-- <item name="android:paddingTop">8dp</item> -->
+    <!-- <item name="android:paddingRight">30dp</item> -->
+    <!-- <item name="android:paddingBottom">8dp</item> -->
+    <!-- <item name="android:background">@drawable/activity_stream_item</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="ActivityStreamItemFrame" parent="@style/VerticalBlock"> -->
+    <!-- <item name="android:background">@drawable/activity_stream_item</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="CommentStreamItem" parent="@style/Block"> -->
+    <!-- <item name="android:padding">8dp</item> -->
+    <!-- <item name="android:background">@drawable/comment_stream_item</item> -->
+    <!-- </style> -->
+
+    <style name="FeedDetails" parent="@style/Block">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="FeedTextView" parent="@style/Inline">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorLink">#3c7fb9</item>
+    </style>
+
+    <style name="FeedHeadline" parent="@style/FeedTextView">
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BigFeedHeadline" parent="@style/FeedTextView">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorLink">#4c4c4c</item>
+    </style>
+
+    <style name="FeedActionTitle" parent="@style/FeedTextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textColor">#3c7fb9</item>
+    </style>
+
+    <style name="FeedUser" parent="@style/FeedTextView">
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3c7fb9</item>
+    </style>
+
+    <style name="FeedMessage" parent="@style/Inline">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FeedCheckinCount" parent="@style/Inline">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FeedWhen" parent="@style/Inline">
+        <item name="android:textColor">#79869c</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!-- <style name="FeedCommentIcon" parent="@style/Inline"> -->
+    <!-- <item name="android:layout_marginLeft">18dp</item> -->
+    <!-- <item name="android:layout_marginRight">4dp</item> -->
+    <!-- <item name="android:src">@drawable/comment_icon</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="FeedLikeIcon" parent="@style/Inline"> -->
+    <!-- <item name="android:layout_marginLeft">9dp</item> -->
+    <!-- <item name="android:layout_marginRight">4dp</item> -->
+    <!-- <item name="android:src">@drawable/img_like</item> -->
+    <!-- <item name="android:scaleType">fitXY</item> -->
+    <!-- <item name="android:layout_width">15dp</item> -->
+    <!-- <item name="android:layout_height">15dp</item> -->
+    <!-- </style> -->
+
+    <style name="FeedCommentCount" parent="@style/Inline">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3c7fb9</item>
+    </style>
+
+    <!-- User feed styles -->
+    <style name="UserFeedRow" parent="@style/Block">
+        <item name="android:background">@drawable/bg_tile_stream</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    
+    <style name="AchievementFeedRow" parent="@style/Block">
+        <item name="android:background">@drawable/bg_tile_stream</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="FeedLabel" parent="@style/Inline">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#3e3e3e</item>
+        <item name="android:textColorLink">#79869c</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <style name="UserFeedLabel" parent="@style/FeedLabel">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AchievementFeedLabel" parent="@style/FeedLabel">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FeedSublabel" parent="@style/Inline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <style name="UserFeedSublabel" parent="@style/FeedSublabel">
+        <item name="android:textColor">#718491</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AchievementFeedSublabel" parent="@style/FeedSublabel">
+        <item name="android:textColor">#999</item>
+    </style>
+
+    <!-- <style name="UserToggle"> -->
+    <!-- <item name="android:layout_width">wrap_content</item> -->
+    <!-- <item name="android:layout_height">wrap_content</item> -->
+    <!-- <item name="android:layout_centerVertical">true</item> -->
+    <!-- <item name="android:textOff"></item> -->
+    <!-- <item name="android:textOn"></item> -->
+    <!-- <item name="android:background">@drawable/user_toggle_button</item> -->
+    <!-- </style> -->
+
+    <style name="FollowLoading" parent="@android:style/Widget.ProgressBar.Small.Inverse">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- <style name="FollowComplete" parent="@style/Inline"> -->
+    <!-- <item name="android:src">@drawable/user_details_checkin</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="DividerRow" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/bkg_feedlette_divider</item> -->
+    <!-- <item name="android:paddingLeft">8dp</item> -->
+    <!-- <item name="android:gravity">center_vertical</item> -->
+    <!-- </style> -->
+
+    <style name="DividerText" parent="@style/Block">
+        <item name="android:textColor">#596975</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <!-- <style name="ErrorDividerRow" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/bkg_feedlette_divider_error</item> -->
+    <!-- <item name="android:paddingLeft">8dp</item> -->
+    <!-- <item name="android:gravity">center_vertical</item> -->
+    <!-- </style> -->
+
+    <style name="ErrorDividerText" parent="@style/Block">
+        <item name="android:textColor">#6d4242</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <!-- Checkin/Tips form styles -->
+    <style name="FormMessage" parent="@style/Block">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- Checkin form settings -->
+    <style name="CheckinSettingsSection" parent="@style/Block">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="CheckinSettingsIcon" parent="@style/Inline">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginRight">7dp</item>
+    </style>
+
+    <style name="CheckinSettingsLabel" parent="@style/Inline">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">#485056</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+
+    <!-- <style name="CheckinSettingsCheckbox" parent="@style/Inline"> -->
+    <!-- <item name="android:button">@android:color/transparent</item> -->
+    <!-- <item name="android:background">@drawable/checkbox</item> -->
+    <!-- <item name="android:layout_centerVertical">true</item> -->
+    <!-- <item name="android:layout_alignParentRight">true</item> -->
+    <!-- </style> -->
+
+    <style name="CheckinSettingsLine" parent="@style/Block">
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#727e88</item>
+    </style>
+
+    <!-- Tutorial styles -->
+
+    <style name="TutorialTable" parent="@style/Block">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <!-- <style name="TutorialTableRowTop" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/tbl_row_top</item> -->
+    <!-- <item name="android:paddingTop">5dp</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="TutorialTableRow" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/tbl_row_middle</item> -->
+    <!-- <item name="android:paddingTop">2dp</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="TutorialTableRowBottom" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/tbl_row_bottom</item> -->
+    <!-- <item name="android:paddingTop">2dp</item> -->
+    <!-- </style> -->
+
+    <style name="TutorialItemStack" parent="@style/VerticalBlock">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <style name="TutorialItemHeader" parent="@style/Inline">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TutorialItemSub" parent="@style/Inline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">-3dp</item>
+        <item name="android:textColor">#888</item>
+    </style>
+
+    <style name="TutorialIcon" parent="@style/Block">
+        <item name="android:layout_marginTop">13dp</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">26dp</item>
+    </style>
+
+    <!-- <style name="TutorialCheckmark" parent="@style/Block"> -->
+    <!-- <item name="android:paddingTop">12dp</item> -->
+    <!-- <item name="android:paddingRight">8dp</item> -->
+    <!-- .                <item name="android:layout_marginRight">3dp</item> -->
+    <!-- <item name="android:layout_width">38dp</item> -->
+    <!-- <item name="android:layout_height">38dp</item> -->
+    <!-- <item name="android:layout_gravity">right</item> -->
+    <!-- <item name="android:src">@drawable/checkbox_unchecked</item> -->
+    <!-- </style> -->
+
+    <style name="TutorialProgress" parent="@android:style/Widget.ProgressBar.Large.Inverse">
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_width">38dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <!-- Checkin share dialog -->
+    <!-- <style name="CheckinShareBar" parent="@style/Block"> -->
+    <!-- <item name="android:layout_height">48dp</item> -->
+    <!-- <item name="android:background">@drawable/ac_bkg_collapsed</item> -->
+    <!-- </style> -->
+
+    <style name="CheckinShareZappy" parent="@style/Inline">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="CheckinShareHeader" parent="@style/Inline">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!-- <style name="CheckinShareCheckinMessage" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/ac_edit_text</item> -->
+    <!-- <item name="android:textColor">#737a80</item> -->
+    <!-- <item name="android:textSize">14sp</item> -->
+    <!-- <item name="android:layout_marginTop">8dp</item> -->
+    <!-- <item name="android:layout_height">32dp</item> -->
+    <!-- <item name="android:layout_marginBottom">7dp</item> -->
+    <!-- <item name="android:layout_marginRight">6dp</item> -->
+    <!-- </style> -->
+
+    <style name="CheckinShareShareIcon" parent="@style/Inline">
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- <style name="CheckinShareRow" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/ac_share_row_bkg</item> -->
+    <!-- <item name="android:layout_height">36dp</item> -->
+    <!-- <item name="android:layout_marginLeft">3dp</item> -->
+    <!-- <item name="android:layout_marginRight">3dp</item> -->
+    <!-- </style> -->
+
+    <style name="ShareRowIcon" parent="@style/Inline">
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+    <style name="ShareRowText" parent="@style/Inline">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <!-- <style name="ShareRowCheckbox" parent="@style/Inline"> -->
+    <!-- <item name="android:button">@android:color/transparent</item> -->
+    <!-- <item name="android:background">@drawable/ac_checkbox</item> -->
+    <!-- <item name="android:layout_width">24dp</item> -->
+    <!-- <item name="android:layout_height">24dp</item> -->
+    <!-- <item name="android:layout_margin">6dp</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="CheckinActionRow" parent="@style/Block"> -->
+    <!-- <item name="android:background">@drawable/ac_bottom_row</item> -->
+    <!-- <item name="android:layout_height">48dp</item> -->
+    <!-- <item name="android:layout_marginLeft">3dp</item> -->
+    <!-- <item name="android:layout_marginRight">3dp</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="CheckinShareExploreButton" parent="@style/Inline"> -->
+    <!-- <item name="android:background">@drawable/btn_cs_explore_drawable</item> -->
+    <!-- <item name="android:layout_height">36dp</item> -->
+    <!-- <item name="android:layout_width">72dp</item> -->
+    <!-- <item name="android:layout_marginLeft">6dp</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="CheckinShareDoneButton" parent="@style/Inline"> -->
+    <!-- <item name="android:background">@drawable/btn_cs_done_drawable</item> -->
+    <!-- <item name="android:layout_height">36dp</item> -->
+    <!-- <item name="android:layout_width">72dp</item> -->
+    <!-- <item name="android:layout_marginRight">6dp</item> -->
+    <!-- </style> -->
+
+
+    <!-- Login Text Entry Cell -->
+    <!-- <style name="TextEditRow" parent="@style/VerticalFull"> -->
+    <!-- <item name="android:layout_height">wrap_content</item> -->
+    <!-- <item name="android:layout_width">fill_parent</item> -->
+    <!-- <item name="android:background">@drawable/bg_form_cell</item> -->
+    <!-- <item name="android:tileMode">repeat</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="LoginButton" parent="@style/Block"> -->
+    <!-- <item name="android:layout_height">45dp</item> -->
+    <!-- <item name="android:background">@drawable/btn_login_drawable</item> -->
+    <!-- <item name="android:text">Log in"</item> -->
+    <!-- <item name="android:textSize">18dp</item> -->
+    <!-- <item name="android:textColor">#ffffff</item> -->
+    <!-- <item name="android:textStyle">bold</item> -->
+    <!-- <item name="android:shadowColor">#000000</item> -->
+    <!-- <item name="android:shadowDy">-1</item> -->
+    <!-- <item name="android:shadowRadius">0.01</item> -->
+    <!-- <item name="android:gravity">left|center_vertical</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="ForgotPasswordButton" parent="@style/Block"> -->
+    <!-- <item name="android:layout_height">45dp</item> -->
+    <!-- <item name="android:background">@drawable/btn_forgot_password_drawable</item> -->
+    <!-- <item name="android:text">Forgot your password?"</item> -->
+    <!-- <item name="android:textSize">18dp</item> -->
+    <!-- <item name="android:textColor">#ffffff</item> -->
+    <!-- <item name="android:textStyle">bold</item> -->
+    <!-- <item name="android:shadowColor">#000000</item> -->
+    <!-- <item name="android:shadowDy">-1</item> -->
+    <!-- <item name="android:shadowRadius">0.01</item> -->
+    <!-- <item name="android:gravity">left|center_vertical</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="SignUpButton" parent="@style/Block"> -->
+    <!-- <item name="android:layout_height">45dp</item> -->
+    <!-- <item name="android:background">@drawable/btn_sign_up_drawable</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="TextEditRowErrorText" parent="@style/Block"> -->
+    <!-- <item name="android:textColor">#e74911</item> -->
+    <!-- <item name="android:textSize">14sp</item> -->
+    <!-- <item name="android:textStyle">bold</item> -->
+    <!-- <item name="android:layout_marginLeft">14dp</item> -->
+    <!-- <item name="android:layout_marginTop">5dp</item> -->
+    <!-- <item name="android:shadowDy">2</item> -->
+    <!-- <item name="android:shadowColor">#FFFFFF</item> -->
+    <!-- <item name="android:shadowRadius">0.01</item> -->
+    <!-- <item name="android:drawableLeft">@drawable/icon_error_arrow_down</item> -->
+    <!-- <item name="android:drawablePadding">2dp</item> -->
+    <!-- </style> -->
+
+    <style name="TextEditRowField">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="NotificationTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NotificationText">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <!-- <style name="FormSeparator" parent="@style/Block"> -->
+    <!-- <item name="android:layout_height">2dp</item> -->
+    <!-- <item name="android:background">@drawable/bkg_pixel_divider</item> -->
+    <!-- </style> -->
+
+    <style name="PlayFriendsActionButton" parent="@style/Inline">
+        <item name="android:background">@drawable/play_friends_action_button_drawable</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- <style name="PlayFriendsOverlayButton" parent="@style/Inline"> -->
+    <!-- <item name="android:background">@drawable/play_friends_overlay_button_drawable</item> -->
+    <!-- <item name="android:paddingBottom">1dp</item> -->
+    <!-- <item name="android:textSize">12dp</item> -->
+    <!-- <item name="android:textStyle">bold</item> -->
+    <!-- </style> -->
+
+    <style name="WhiteBottomShadow" parent="@style/Inline">
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.001</item>
+    </style>
+
+    <style name="DarkTopShadow" parent="@style/Inline">
+        <item name="android:shadowColor">#cc000000</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.001</item>
+    </style>
+
+    <style name="ButtonRoundGreen" parent="@style/Inline">
+        <item name="android:background">@drawable/button_round_green_drawable</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

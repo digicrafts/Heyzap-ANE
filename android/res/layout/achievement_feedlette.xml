@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/VerticalBlock" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ffffff" />
+
+    <LinearLayout style="@style/AchievementFeedRow" 
+        android:baselineAligned="false" >
+
+        <RelativeLayout style="@style/Inline">
+            
+	        <ImageView
+	            android:id="@+id/achievement_icon"
+	            style="@style/LargeIcon"
+	            android:contentDescription="@string/Achievement Icon"
+	            android:background="#00000000"
+	            android:scaleType="fitCenter"
+	            android:layout_gravity="top"
+	            android:layout_marginLeft="6dp"
+	            android:layout_marginTop="2dp"
+	            android:layout_marginBottom="2dp" />
+	        
+            <ImageView
+                style="@style/Inline"
+                android:id="@+id/new_badge_icon"
+                android:background="@drawable/badge_new"
+                android:visibility="gone"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@string/New Badge" />
+        </RelativeLayout>
+
+        <!-- Text -->
+
+        <LinearLayout
+            android:id="@+id/achievement_text"
+            style="@style/VerticalBlock"
+            android:layout_width="0dp"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/achievement_name"
+                style="@style/AchievementFeedLabel"
+                android:ellipsize="end"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/achievement_description"
+                style="@style/AchievementFeedSublabel"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c6c7cc" />
+
+</LinearLayout>

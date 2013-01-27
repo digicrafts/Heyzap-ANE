@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/blue_fade"
+            android:layout_width="fill_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/leaderboard_savebg" />
+
+        <View
+            android:id="@+id/white_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="206dp"
+            android:layout_below="@id/blue_fade"
+            android:background="#ffefefef" />
+
+        <TextView
+            android:id="@+id/big_text"
+            style="@style/WhiteBottomShadow"
+            android:layout_width="320dp"
+            android:layout_alignTop="@id/white_bg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:gravity="center"
+            android:textColor="#ff4d4d4d"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/install_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/big_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/install_heyzap_button_drawable" />
+
+        <ImageView
+            android:id="@+id/people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/install_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/leaderboard_people" />
+        
+        <ImageView
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/white_bg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-12dp"
+            android:src="@drawable/leaderboard_bubble_pedestal_arrow" />
+        
+    </RelativeLayout>
+
+</FrameLayout>

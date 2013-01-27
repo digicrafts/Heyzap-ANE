@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="38.5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/leaderboard_top_overlay" >
+
+        <ImageView
+            android:id="@+id/logo"
+            style="@style/Inline"
+            android:layout_width="37.5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="3dp"
+            android:paddingLeft="2dp"
+            android:textColor="#4d4d4d"
+            android:textSize="14dp"
+            android:src="@drawable/leaderboard_top_logo"
+            android:scaleType="center"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="38.5dp"
+            android:layout_height="38.5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/logo" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/WhiteBottomShadow"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@id/picture"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#4d4d4d"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cta"
+            style="@style/WhiteBottomShadow"
+            android:layout_alignLeft="@id/title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#4d4d4d"
+            android:textSize="13dp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,174 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    style="@style/Block" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        style="@style/VerticalBlock"
+        android:background="@drawable/grouped_stream_bg" >
+
+        <View
+            android:id="@+id/separator_top"
+            style="@style/Block"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/rank"
+                style="@style/WhiteBottomShadow"
+                android:layout_width="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="#ff4d4d4d"
+                android:textSize="19dp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/user_thumb"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="45dp" />
+
+            <TextView
+                android:id="@+id/user_name"
+                style="@style/WhiteBottomShadow"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_toLeftOf="@+id/button_wrapper"
+                android:layout_toRightOf="@id/user_thumb"
+                android:singleLine="true"
+                android:textColor="#ff4d4d4d"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <!-- textSize and padding gets set dynamically in LeaderboardUserFeedlette.java -->
+
+            <EditText
+                android:id="@+id/edit_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/button_wrapper"
+                android:layout_toRightOf="@id/user_thumb"
+                android:ellipsize="end"
+                android:hint="Enter your name"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="#ff4d4d4d"
+                android:textSize="13dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/score"
+                style="@style/WhiteBottomShadow"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="21dp"
+                android:layout_toLeftOf="@+id/button_wrapper"
+                android:layout_toRightOf="@id/user_thumb"
+                android:singleLine="true"
+                android:textColor="#ff55a406"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:id="@+id/button_wrapper"
+                style="@style/Inline"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingRight="5dp" >
+
+                <!-- Only one of these buttons will be shown at a time, of course -->
+
+                <Button
+                    android:id="@+id/green_action_button"
+                    style="@style/GreenActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:minWidth="72dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:shadowColor="#88000000"
+                    android:shadowDy="-1"
+                    android:shadowRadius="0.001"
+                    android:text="@string/SAVE"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/light_action_wrapper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:paddingRight="4dp"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:id="@+id/light_action_button"
+                        style="@style/PlayFriendsActionButton"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:minWidth="56dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp" >
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            style="@style/Inline"
+                            android:paddingRight="1dp"
+                            android:src="@drawable/icon_check"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/label"
+                            style="@style/WhiteBottomShadow"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separator_bottom"
+            style="@style/Block"
+            android:layout_height="1dp"
+            android:background="#d8d8d8" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/glow_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:layout_gravity="top"
+        android:background="@drawable/leaderboard_glow_bottom"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/glow_top"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/leaderboard_glow_top"
+        android:visibility="gone" />
+
+</FrameLayout>

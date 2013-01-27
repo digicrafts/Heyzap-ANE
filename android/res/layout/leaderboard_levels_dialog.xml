@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="54dp" >
+
+    <FrameLayout
+        android:id="@+id/wrapper"
+        android:layout_width="290dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+
+        <FrameLayout
+            android:id="@+id/feed_frame_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/leaderboard_popover" >
+
+            <FrameLayout
+                android:id="@+id/levels_feed_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/levels_feed_empty"
+                style="@style/VerticalBlock"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/empty_text"
+                    style="@style/Inline"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/Could not load levels"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/levels_retry"
+                    style="@style/GreenButton"
+                    android:layout_width="200dp"
+                    android:text="@string/Retry" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/levels_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    style="@style/Inline"
+                    android:layout_gravity="center"
+                    android:indeterminate="true" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+</FrameLayout>

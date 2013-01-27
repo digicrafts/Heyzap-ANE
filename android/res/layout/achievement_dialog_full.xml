@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/achievements_dialog"
+    android:gravity="center" >
+
+    <LinearLayout
+        style="@style/VerticalBlock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/header_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/DarkTopShadow"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ellipsize="end"
+                android:gravity="top|center_horizontal"
+                android:paddingTop="7dp"
+                android:singleLine="true"
+                android:text="@string/Achievements"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/feed_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" >
+        </FrameLayout>
+
+        <FrameLayout
+	        android:id="@+id/spinner"
+	        android:layout_width="fill_parent"
+	        android:background="#e9e9e9"
+	        android:gravity="center"
+	        android:visibility="gone"
+	        android:layout_height="200dp" >
+	        <ProgressBar
+		        style="@style/Inline"
+		        android:layout_gravity="center"
+		        android:indeterminate="true" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_button_wrapper"
+            style="@style/HorizontalBlock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp" >
+
+            <Button
+                android:id="@+id/save_button"
+                style="@style/ActionGreenButton"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="4dp"
+                android:layout_marginRight="3dp"
+                android:text="@string/Save" />
+
+            <Button
+                android:id="@+id/close_button"
+                style="@style/ActionGrayButton"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:text="@string/Close" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/achievements_dialog_gradient"
+        android:layout_marginTop="44dp"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_gravity="top"
+        android:layout_height="1px"
+        android:layout_marginTop="44dp"
+        android:background="#000000" />
+
+</FrameLayout>
