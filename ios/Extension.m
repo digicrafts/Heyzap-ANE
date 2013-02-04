@@ -1,7 +1,7 @@
 #import "FlashRuntimeExtensions.h"
 #import <Heyzap/Heyzap.h>
 
-static FREObject load(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[])
+static FREObject Hayzap_load(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[])
 {
     NSLog(@"Entering load()");
     
@@ -30,7 +30,7 @@ static FREObject load(FREContext ctx, void* funcData, uint32_t argc, FREObject a
     return NULL;
 }
 
-static FREObject checkin(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[])
+static FREObject Hayzap_checkin(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[])
 {
     NSLog(@"Entering checkin()");
     
@@ -53,7 +53,7 @@ static FREObject checkin(FREContext ctx, void* funcData, uint32_t argc, FREObjec
     return NULL;
 }
 
-static FREObject isSupported(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[])
+static FREObject Hayzap_isSupported(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[])
 {
     NSLog(@"Entering isSupported()");
     
@@ -76,15 +76,15 @@ static void ContextInitializer(void* extData, const uint8_t* ctxType, FREContext
     
 	func[0].name = (const uint8_t*)"load";
 	func[0].functionData = NULL;
-	func[0].function = &load;
+	func[0].function = &Hayzap_load;
 
     func[1].name = (const uint8_t*)"checkin";
 	func[1].functionData = NULL;
-	func[1].function = &checkin;
+	func[1].function = &Hayzap_checkin;
 
     func[2].name = (const uint8_t*)"isSupported";
 	func[2].functionData = NULL;
-	func[2].function = &isSupported;
+	func[2].function = &Hayzap_isSupported;
     
 	*functionsToSet = func;
     

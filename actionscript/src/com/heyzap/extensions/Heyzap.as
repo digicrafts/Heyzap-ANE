@@ -1,14 +1,19 @@
 package com.heyzap.extensions
 {
 	import flash.external.ExtensionContext;
-	
-	public class Heyzap
+import flash.system.Capabilities;
+
+public class Heyzap
 	{	
 		private var exContext : ExtensionContext;
 		
 		public function Heyzap()
 		{
-			exContext = ExtensionContext.createExtensionContext("com.heyzap.extension", "heyzap");
+            if(Capabilities.os.indexOf("x86")){
+                trace('[Hayzap-ANE] Hayzap extension not support in simulator');
+            } else {
+                exContext = ExtensionContext.createExtensionContext("com.heyzap.extension", "heyzap");
+            }
 		}
 		
 		public function load(showCheckin : Boolean, appStoreId : String, appUrl : String) : void

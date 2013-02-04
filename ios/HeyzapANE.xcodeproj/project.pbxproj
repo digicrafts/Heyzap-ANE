@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		14E0B0371418DFC800DA2843 /* Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E0B0351418DFC800DA2843 /* Extension.m */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		E099703716B3DEAE00DA0537 /* Heyzap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E099703616B3DEAE00DA0537 /* Heyzap.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		E099703916B3DED200DA0537 /* HeyzapANE_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = E099703816B3DED200DA0537 /* HeyzapANE_Prefix.pch */; };
 		E099703D16B3E1C700DA0537 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E099703A16B3E1C700DA0537 /* AdSupport.framework */; };
 		E099703E16B3E1C700DA0537 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E099703B16B3E1C700DA0537 /* CoreAudio.framework */; };
 		E099703F16B3E1C700DA0537 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E099703C16B3E1C700DA0537 /* StoreKit.framework */; };
 		E099704116B3E1DC00DA0537 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E099704016B3E1DC00DA0537 /* QuartzCore.framework */; };
 		E099704316B3E68B00DA0537 /* Heyzap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E099704216B3E68B00DA0537 /* Heyzap.a */; };
+		E0BCFAD916BF8E95001D2C34 /* Heyzap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BCFAD816BF8E95001D2C34 /* Heyzap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,14 +23,14 @@
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libHeyzapANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHeyzapANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E099703316B3DE6200DA0537 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
-		E099703516B3DEAE00DA0537 /* Heyzap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Heyzap.bundle; path = "../lib/heyzap-sdk-3.4.17/ios-sdk/Heyzap.bundle"; sourceTree = "<group>"; };
-		E099703616B3DEAE00DA0537 /* Heyzap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Heyzap.framework; path = "../lib/heyzap-sdk-3.4.17/ios-sdk/Heyzap.framework"; sourceTree = "<group>"; };
 		E099703816B3DED200DA0537 /* HeyzapANE_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyzapANE_Prefix.pch; sourceTree = "<group>"; };
 		E099703A16B3E1C700DA0537 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		E099703B16B3E1C700DA0537 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		E099703C16B3E1C700DA0537 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E099704016B3E1DC00DA0537 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E099704216B3E68B00DA0537 /* Heyzap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Heyzap.a; path = lib/Heyzap.a; sourceTree = "<group>"; };
+		E0BCFAD716BF8E3C001D2C34 /* Heyzap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Heyzap.bundle; path = lib/Heyzap.bundle; sourceTree = "<group>"; };
+		E0BCFAD816BF8E95001D2C34 /* Heyzap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Heyzap.framework; path = lib/Heyzap.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +43,8 @@
 				E099703E16B3E1C700DA0537 /* CoreAudio.framework in Frameworks */,
 				E099703F16B3E1C700DA0537 /* StoreKit.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				E099703716B3DEAE00DA0537 /* Heyzap.framework in Frameworks */,
 				E099704316B3E68B00DA0537 /* Heyzap.a in Frameworks */,
+				E0BCFAD916BF8E95001D2C34 /* Heyzap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +74,11 @@
 			isa = PBXGroup;
 			children = (
 				E099704216B3E68B00DA0537 /* Heyzap.a */,
+				E0BCFAD816BF8E95001D2C34 /* Heyzap.framework */,
 				E099704016B3E1DC00DA0537 /* QuartzCore.framework */,
 				E099703A16B3E1C700DA0537 /* AdSupport.framework */,
 				E099703B16B3E1C700DA0537 /* CoreAudio.framework */,
 				E099703C16B3E1C700DA0537 /* StoreKit.framework */,
-				E099703516B3DEAE00DA0537 /* Heyzap.bundle */,
-				E099703616B3DEAE00DA0537 /* Heyzap.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -97,6 +96,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E0BCFAD716BF8E3C001D2C34 /* Heyzap.bundle */,
 				E099703816B3DED200DA0537 /* HeyzapANE_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -184,6 +184,7 @@
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/../lib\"",
 					"\"$(SRCROOT)/../lib/heyzap-sdk-3.4.17/ios-sdk\"",
+					"\"$(SRCROOT)/lib\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
@@ -209,6 +210,7 @@
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/../lib\"",
 					"\"$(SRCROOT)/../lib/heyzap-sdk-3.4.17/ios-sdk\"",
+					"\"$(SRCROOT)/lib\"",
 				);
 				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
